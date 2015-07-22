@@ -1,0 +1,14 @@
+COMPILE:
+Server:
+g++ Server.cpp Socket.cpp -o server
+
+Client:
+g++ Client.cpp Socket.cpp -o client
+
+
+RUN:
+Server:
+./server
+
+Client:
+./client ip %corrupt %drop
